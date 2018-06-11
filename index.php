@@ -18,4 +18,4 @@
 		}
 	}
 	
-	include_once 'res/router.php';
+	include_once 'src/router.php';

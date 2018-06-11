@@ -4,8 +4,8 @@
 <head>
 	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDfNKKTWKwxWhf1DCELpzYyK_KPQjqSQi4&sensor=false&libraries=places"></script>
     </script>
-    <script src="res/js/jquery-gmaps-latlon-picker.js"></script>
-	<link rel="stylesheet" type="text/css" href="res/css/jquery-gmaps-latlon-picker.css"/>
+    <script src="src/js/jquery-gmaps-latlon-picker.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/css/jquery-gmaps-latlon-picker.css"/>
 </head>
 <body>
 <div class="contenue">

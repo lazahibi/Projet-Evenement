@@ -1,7 +1,7 @@
 <?php
 	include('view/partials/header.php');
 ?>
-<script type="text/javascript" src="res/js/functions.js"></script>
+<script type="text/javascript" src="src/js/functions.js"></script>
 	<div class="contenue">
 		<table>
 	   	<tr> <th>Nom</th> <th>Description</th> <th>Date</th> <th>Déjeuner</th> <th>Diner</th> <th>Localisation</th> <th>Nbre d'ateliers</th>  <th>Logo</th> <th>Liens</th> <th>Modifications</th></tr>
@@ -30,6 +30,6 @@
 			    </tr>
 		<?php endwhile ?>
 	</div>
-	<script type="text/javascript" src="res/js/functions.js"></script>
+	<script type="text/javascript" src="src/js/functions.js"></script>
 </body>
 </html>

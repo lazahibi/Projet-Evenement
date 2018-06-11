@@ -16,7 +16,7 @@
 		{
 			if (!empty($_POST)){
 				$id = rand(1, 999999);
-				$namefile = "res/img/logos/$id.jpg";
+				$namefile = "src/img/logos/$id.jpg";
 				$res = move_uploaded_file($_FILES['logo']['tmp_name'],$namefile);
 				$create = new ModelEvent; 
 				$create->create($namefile);
@@ -45,7 +45,7 @@
 		public function updateEvent($id)
 		{
 			$n = rand(1, 999999);
-			$namefile = "res/img/logos/$n.jpg";
+			$namefile = "src/img/logos/$n.jpg";
 			$resultat = move_uploaded_file($_FILES['logo']['tmp_name'],$namefile);
 		if (empty($_FILES['logo']['name'])) 
 			{$namefile = $_POST['oldlogo'];}
@@ -136,7 +136,7 @@
 	    	}
 	    	$month = array("janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre");
 	    	$date_ev = "le " . $date_d[2] . " " . $month[$date_month] . " " . $date_d[0];
-	    	$name = $req['nom'];
+	    	$name = $req['name'];
 	    	$address = $req['address'];
 			return include('view/mail.php');
 		}

@@ -9,12 +9,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/b5122a116b.js"></script>
-	<script src="res/js/jquery-2.1.1.min.js"></script>
+	<script src="src/js/jquery-2.1.1.min.js"></script>
 	 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfNKKTWKwxWhf1DCELpzYyK_KPQjqSQi4&callback=initMap">
     </script>
-	<link rel="stylesheet" type="text/css" href="res/css/jquery-gmaps-latlon-picker.css"/>
-    <link rel="stylesheet" type="text/css" href="res/css/styleadmin.css">
+	<link rel="stylesheet" type="text/css" href="src/css/jquery-gmaps-latlon-picker.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/styleadmin.css">
 	<title>Espace Administrateur - <?= $title ?></title>
 </head>
 <body>

@@ -1,7 +1,7 @@
 <?php
 	include('view/partials/header.php');
 ?>
-<script type="text/javascript" src="res/js/functions.js"></script>
+<script type="text/javascript" src="src/js/functions.js"></script>
 	<div class="contenue">
 		<table>
         <tr> <th>Logo</th> <th>Nom</th> <th>Date</th><th>Nombre de participants</th><th>nbr couverts déjeuné</th><th>nbr couverts diner</th><th>Moyenne donnée</th></tr>

@@ -1,7 +1,7 @@
 <?php
 	include('view/partials/header.php');
 ?>
-<script type="text/javascript" src="res/js/functions.js"></script>
+<script type="text/javascript" src="src/js/functions.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.header').nextUntil('tr.header').hide();
@@ -57,6 +57,6 @@
 		endwhile;
 	?>
 	</div>
-	<script type="text/javascript" src="res/js/functions.js"></script>
+	<script type="text/javascript" src="src/js/functions.js"></script>
 </body>
 </html>

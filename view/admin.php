@@ -1,10 +1,10 @@
 <?php include('view/partials/header.php'); ?>
 <head>
-	<link rel='stylesheet' href='res/css/fullcalendar.css' />
-	<script src='res/js/moment.js'></script>
-	<script src='res/js/fullcalendar.js'></script>
-	<script src='res/js/fr.js'></script>
-	<script src="res/js/functions.js"></script>
+	<link rel='stylesheet' href='src/css/fullcalendar.css' />
+	<script src='src/js/moment.js'></script>
+	<script src='src/js/fullcalendar.js'></script>
+	<script src='src/js/fr.js'></script>
+	<script src="src/js/functions.js"></script>
 
 </head>
 

@@ -1,6 +1,6 @@
 <?php
 
-include_once('res/db/connect.php');
+include_once('src/db/connect.php');
 class ModelMail {
 
     private $connect;

@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="res/css/login.css">
+	<link rel="stylesheet" type="text/css" href="src/css/login.css">
 	<title>Se connecter</title>
 	</head>
 </head>
 <body>
 
-    <div style="text-align:center;"> <img src="res/img/logoacademie.png"  width="250"/> </div>
+    <div style="text-align:center;"> <img src="src/img/logoacademie.png"  width="250"/> </div>
 <form class="block" action="index.php?<?php echo base64_encode('page=LoginController&action=sendLogin'); ?>" method="post" class="log">
 
 	<h2 class="titre"><small>Connexion Administrateur :</small></h3>
